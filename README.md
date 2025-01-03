@@ -4,8 +4,31 @@ A simple and secure web-based and Back-End based voting application  that allows
 
 Features :
 
--User sign up and login with Aadhar Card Number and password
--User can view the list of candidates
--User can vote for a candidate (only once)
--Admin can manage candidates (add, update, delete)
--Admin cannot vote
+   - User sign up and login with Aadhar Card Number and password
+
+   - User can view the list of candidates
+
+   - User can vote for a candidate (only once)
+
+   - Admin can manage candidates (add, update, delete)
+
+   - Admin cannot vote
+
+   - User can change their password
+
+Technologies Used :
+
+   - Backend : Node.js, Express
+ 
+   - Database : MongoDB
+
+   - Authentication : JWT (JSON Web Tokens)
+
+   - Real-Time : Socket.io (for live voting updates)
+
+Installation :
+
+      - Clone the repository :
+
+           git clone https://github.com/Meghatoraskar/votingApp.git
+
